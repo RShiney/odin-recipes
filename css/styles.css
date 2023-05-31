@@ -1,0 +1,31 @@
+h1 {
+    color: white;
+    background-color: black;
+}
+
+ul {
+    color: red;
+}
+h3 {
+    font-size:large;
+}
+.link {
+    color: green;
+    font-size: 34px;
+    background-color:black
+}
+.avo {
+    color:rgb(247, 121, 68);
+    background-color: rgb(116, 243, 65, 0.302);
+}
+.burgah {
+    color: red;
+    background-color: rgb(238, 238, 100);
+}
+.lasagna {
+    color: yellow;
+    background-color: rgb(218, 72, 72);
+}
+.rec {
+    font-size: 40px;
+}
