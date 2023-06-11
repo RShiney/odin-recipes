@@ -1,31 +1,64 @@
-h1 {
-    color: white;
-    background-color: black;
+* {
+    box-sizing: border-box;
+
+}
+div {
+    border: rgb(14, 28, 44) double 20px;
+    background-color: rgb(165, 165, 240);
+    margin: 10px;
+    text-align:center;
+
 }
 
-ul {
-    color: red;
+img{
+    border: rgb(66, 5, 5) solid 15px;
+    margin: 20px;
+
+}
+
+h1 {
+    color: rgb(35, 35, 69);
+    background-color: rgb(188, 185, 185);
+    border: black solid 5px;
+    margin: 10px;
+}
+
+li {
+    color:whitesmoke;
+    text-align: left;
 }
 h3 {
     font-size:large;
+    text-align: left;
+    margin: 20px;
 }
 .link {
     color: green;
     font-size: 34px;
-    background-color:black
+    border:rgb(157, 127, 127) dotted 10px;
+    margin: 10px;
+    padding: 10px;
+    display: block;
+    width:fit-content;
+
 }
-.avo {
-    color:rgb(247, 121, 68);
-    background-color: rgb(116, 243, 65, 0.302);
-}
-.burgah {
-    color: red;
-    background-color: rgb(238, 238, 100);
-}
-.lasagna {
-    color: yellow;
-    background-color: rgb(218, 72, 72);
+.link:hover{
+    border: chartreuse dotted 10px;
 }
 .rec {
     font-size: 40px;
+    border-top:rgb(14, 28, 44) solid 10px;
+    border-bottom:rgb(14, 28, 44) solid 10px ;
+    border-left: rgb(18, 18, 60) groove 10px; 
+    border-right: rgb(18, 18, 60) ridge 10px;
+    margin: 10px auto;
+    background-color: rgb(168, 168, 168);
+    display: inline-block;
+    text-align: center;
+    padding: 5px 10px;
+    
+}
+
+.rec:hover {
+    background-color: chartreuse;
 }
